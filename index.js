@@ -8,3 +8,6 @@ var formatedD = format(d, 'yyyy-MM-dd');
 // var formatedD = format(원시값, '포맷');
 
 console.log(formatedD);
+
+var hour = d.getHours();
+console.log('hours=', hour);
